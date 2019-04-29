@@ -1,0 +1,14 @@
+{
+  "reporters": [
+    "html",
+    "console"
+  ],
+  "maxLines": 100000,
+  "mode": "strict",
+  "ignore": [
+    "**/node_modules/**",
+    "**/__snapshots__/**"
+  ],
+  "gitignore": true,
+  "absolute": false
+}
