@@ -2,7 +2,8 @@
 
 # 前端代码检查，git提交验证
 
-> 直接 `yarn add -D code-inspect`
+### 安装
+    yarn add -D code-inspect
 
 ### 代码检查
 
