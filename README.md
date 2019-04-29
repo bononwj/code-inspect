@@ -1,5 +1,6 @@
 # code-inspect
-### 前端代码检查，git提交验证
+
+# 前端代码检查，git提交验证
 
 > 直接 `yarn add -D code-inspect`
 
