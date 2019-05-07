@@ -15,15 +15,19 @@
     yarn commit // 进行commit
 
 
-安装commit插件，`yarn add -D commit-inspect`
 
-修改内容转到暂存区，`git add . (git add -A)`
+### 代码提交流程
 
-开始commit，`yarn commit`
 
-输入type（本次更新的类型），内容必须是["删除", "修改", "新增", "代码优化", "项目工程"]中的某一项，可以在根目录下`commitlint.config.js`文件进行修改
-输入scope（本次更新的地方）
-输入subject（本次更新的概要）
-输入body（本次更新的具体细节）
-输入footer（本次更新的备注，如修改了海庭的代码，可以输入@冯海庭）
-commit完成，进行 `git push`
+1. 安装commit插件，`yarn add -D commit-inspect`
+
+2. 修改内容转到暂存区，`git add . (git add -A)`
+
+3. 开始commit，`yarn commit`
+
+4. 输入type（本次更新的类型），内容必须是["删除", "修改", "新增", "代码优化", "项目工程"]中的某一项，可以在根目录下`commitlint.config.js`文件进行修改
+5. 输入scope（本次更新的地方）
+6. 输入subject（本次更新的概要）
+7. 输入body（本次更新的具体细节）
+8. 输入footer（本次更新的备注，如修改了海庭的代码，可以输入@冯海庭）
+9. commit完成，进行 `git push`
