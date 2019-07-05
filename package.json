@@ -1,6 +1,6 @@
 {
   "name": "code-inspect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "check code before git commit",
   "main": "index.js",
   "bin": {
@@ -24,6 +24,10 @@
   ],
   "author": "bonon",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bononwj/code-inspect"
+  },
   "dependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
